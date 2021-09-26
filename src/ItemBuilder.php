@@ -2,7 +2,7 @@
 
 namespace App;
 
-use Symfony\Component\DependencyInjection\ContainerInterface;
+use Psr\Container\ContainerInterface;
 use Symfony\Contracts\Service\ServiceSubscriberInterface;
 
 class ItemBuilder implements ServiceSubscriberInterface
